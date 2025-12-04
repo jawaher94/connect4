@@ -21,7 +21,7 @@ export default function Setup({ onStart }) {
       <h2>Game Setup</h2>
       <h3>Connect 4</h3>
 
-      {/* قائمة التوسعات */}
+      
       <div style={{
         border: '1px solid #ccc',
         backgroundColor: '#f9f9f9',
@@ -38,7 +38,7 @@ export default function Setup({ onStart }) {
         </ul>
       </div>
 
-      {/* المدخلات */}
+     
       <label>Rows:</label>
       <input type="number" value={rows} onChange={e => setRows(Number(e.target.value))} />
 
